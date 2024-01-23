@@ -1,7 +1,7 @@
 import { getCurrencies } from "./getCurrencies";
 
 describe ('Graeme Smith S00227303', () => {
-    it('should contain the USD in the array', () => {
+    it('should contain the currencies in the array', () => {
         const result = getCurrencies();
         expect(result).toContain('USD');
         expect(result).toContain('GBP');
